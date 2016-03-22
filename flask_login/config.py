@@ -22,13 +22,13 @@ COOKIE_SECURE = None
 COOKIE_HTTPONLY = False
 
 #: The default flash message to display when users need to log in.
-LOGIN_MESSAGE = u'Please log in to access this page.'
+LOGIN_MESSAGE = u'로그인하셔야 이용가능한 서비스입니다.'
 
 #: The default flash message category to display when users need to log in.
 LOGIN_MESSAGE_CATEGORY = 'message'
 
 #: The default flash message to display when users need to reauthenticate.
-REFRESH_MESSAGE = u'Please reauthenticate to access this page.'
+REFRESH_MESSAGE = u'이 페이지에 접속하려면 다시 인증해야 합니다.'
 
 #: The default flash message category to display when users need to
 #: reauthenticate.
